@@ -2,8 +2,8 @@
 Contributors: rbplugins
 Tags: disable comments, comments, disable
 Requires at least: 3.1
-Tested up to: 6.7
-Stable tag: 1.0.24
+Tested up to: 6.8
+Stable tag: 1.0.25
 License: GPLv2 or later
 
 Disable Comments - easy tool to disable comments for your blog posts, and pages. Admin can disable comments in just a few clicks. Delete comments from the blog post. 
@@ -78,6 +78,9 @@ While Disable Comments RB primarily focuses on disabling comments, it does not d
 2. Disable Comments notice
  
 == Changelog ==
+
+= 1.0.25 =
+* Compatibility with WordPress 6.8
 
 = 1.0.24 =
 * Compatibility with WordPress 6.7
