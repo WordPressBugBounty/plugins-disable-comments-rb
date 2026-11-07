@@ -1,83 +1,158 @@
 === Disable Comments ===
 Contributors: rbplugins
-Tags: disable comments, comments, disable
-Requires at least: 3.1
+Tags: disable comments, comments, woocommerce reviews, multisite, ai
+Requires at least: 5.6
 Tested up to: 7.1
-Stable tag: 1.0.28
+Requires PHP: 7.4
+Stable tag: 2.1.0
 License: GPLv2 or later
 
-Disable Comments - easy tool to disable comments for your blog posts, and pages. Admin can disable comments in just a few clicks. Delete comments from the blog post. 
+Disable, hide, bulk-delete & auto-reply to comments and WooCommerce reviews — multisite-ready, with an AI Assistant PRO add-on.
 
 == Description ==
 
-The Disable Comments RB Plugin is a valuable tool for administrators seeking to completely disable comments on their website. Our plugin offers global disabling functionality, effectively removing all comment-related features and options across posts, pages, and attachments. With a focus on simplicity and power, our plugin streamlines the process of managing comments by employing a smart algorithm.
+**Disable Comments RB** gives you real control over comments instead of a single on/off switch: choose exactly which content types are affected, what happens to comments already on the site, and clean up what's left — all from one settings screen, with a dedicated PRO add-on for stores and agencies that need more.
 
-By installing and enabling our plugin, administrators can seamlessly eliminate comment-related elements from the Dashboard, Widgets, and Admin menu. This ensures a clutter-free interface and a smoother user experience for both administrators and visitors alike.
+📖 [Plugin Overview](https://rbplugins.com/wordpress-plugins/disable-comments-rb/) | 📚 [Documentation](https://rbplugins.com/docs/disable-comments-rb/) | 💎 [Pricing & PRO](https://rbplugins.com/wordpress-plugins/disable-comments-rb/#pricing)
 
-However, if you have specific sections of your website where comments are desired, our plugin offers the flexibility to selectively disable comments. Rather than globally disabling commenting, administrators can choose to deactivate this functionality only in the necessary areas of their WordPress site.
+🚫 **Flexible disabling**
+Turn comments off everywhere, for selected content types only, or not at all. Block new comments and control the visibility of existing ones independently — hide them all, or leave them showing.
 
-For those unsure of how to disable comments on individual posts or pages, our support team is readily available to provide assistance. Additionally, our FAQ section offers comprehensive guidance on navigating the plugin's features and settings.
+🗑️ **Bulk delete, safely**
+Remove or trash comments by content type and status, with a Count step before anything is deleted so you always know the number before you commit.
 
-Whether you seek to globally disable comments or selectively manage commenting functionality, the Disable Comments RB Plugin offers a versatile solution tailored to meet your website's needs.
+📊 **Dashboard & Comments-page shortcuts**
+A WordPress Dashboard widget shows your comment stats at a glance. Optional one-click shortcuts on the native Comments page and in the admin toolbar jump straight into settings.
 
-**Key features of Disable Comments RB**
+🛡️ **Spam-channel blocking**
+Closes the classic XML-RPC endpoint and the REST API's comment-creation endpoint that some spam bots use to bypass the normal comment form.
 
-*  All comment links in the admin menu are hidden.
-*  Hide Dashboard / Recent Comments section.
-*  Hide Dashboard / Discussion section.
-*  All comment links in the admin bar are hidden.
-*  Disable all comments widgets.
-*  Discussion page settings are turned off.
-*  Disable RSS/Atom feeds.
-*  Turn off Pingback functionality in the header.
-*  Pingbacks are disabled.
+⚙️ **Built for real admin workflows**
+Choose whether the settings screen lives under Settings or gets its own top-level menu item. Everything reports into Site Health → Info for easy support requests.
 
-Before enabling the Disable Comments RB plugin, it's highly recommended to delete any existing comments to prevent potential conflicts with your current theme. Depending on the theme's code, existing comments may remain published, causing visual or functional discrepancies.
+= 💎 PRO add-on =
 
-Disabling comments on your website doesn't necessitate any special skills or code modifications. Simply install the Disable Comments RB plugin and access its settings to activate the primary functionality. Installing the plugin from the directory and enabling the "Disable Comments" function in the plugin settings streamlines the process effectively.
+Install the separate **Disable Comments RB — PRO Key** plugin to unlock:
 
-If you have suggestions for new functionality or additional options for the Disable Comments RB plugin, we welcome your input. Feel free to reach out to us through our contact form or support section to share your ideas. We value your feedback and are committed to continuously improving our plugin to better meet your needs.
+🤖 **AI Assistant** — automatically reply to new comments that mention specific keywords, with ready-made presets (Sales, Support, Availability, Complaints). On WooCommerce, rules can also trigger by star rating alone — perfect for catching negative reviews.
+
+🛒 **WooCommerce review management** — filter Delete by product review vs. regular comment, and see reviews broken out separately in Statistics.
+
+📅 **Hide by date** — show only comments between two dates, before a date, or after a date, instead of all-or-nothing.
+
+👥 **Role-based exceptions** — let editors or admins keep commenting (for internal notes) on content types where the public can't.
+
+🌐 **Multisite enforcement** — lock the Disable settings network-wide from Network Admin.
+
+📤 **Export / Import** — move your full configuration between sites as a JSON file.
+
+💻 **WP-CLI** — `wp disable-comments-rb status | set | stats | delete`, scriptable and automatable.
+
+📈 **Full Statistics tab** — live counts by status and content type, plus a running "permanently deleted" total.
+
+No license key to enter, no account, nothing to phone home — having the PRO Key plugin installed and active **is** the unlock.
+
+📖 [Plugin Overview](https://rbplugins.com/wordpress-plugins/disable-comments-rb/) | 📚 [Documentation](https://rbplugins.com/docs/disable-comments-rb/) | 💎 [Pricing & PRO](https://rbplugins.com/wordpress-plugins/disable-comments-rb/#pricing)
+
+= Free features =
+
+* Disable comments everywhere, for selected content types, or not at all
+* Independent controls for blocking new comments vs. hiding existing ones
+* Bulk delete or trash comments by content type + status, with a Count-first step
+* Blocks comment spam via XML-RPC and the REST API
+* WordPress Dashboard widget with live comment stats
+* Optional shortcut button on the native Comments page
+* Optional quick-access menu in the admin toolbar
+* Choice of Settings submenu or a top-level admin menu item
+* Site Health integration for easy support requests
+
+= PRO features =
+
+* AI Assistant — keyword- and (WooCommerce) star-rating-triggered auto-replies, with presets
+* WooCommerce product review management (Delete filter + separate Statistics)
+* Hide existing comments by date range (between, before, or after a date)
+* Role-based exceptions for staff
+* Multisite network-wide enforcement
+* Export/import settings as JSON
+* WP-CLI commands
+* Full Statistics tab
+
+Before enabling Disable Comments RB, it's a good idea to review any existing comments first — depending on your theme, already-published comments may still render in unexpected ways once comments are turned off for that content type.
 
 == Frequently Asked Questions ==
 
-= How do I install the Disable Comments plugin? =
+= How do I install Disable Comments RB? =
 
-There are several methods to install plugins on your WordPress blog. Firstly, you can download the plugin installer from the plugin directory and install it in the plugins section of the WordPress backend. Alternatively, you can navigate to the plugins section and click the "Add" button. From there, you can search for the Disable Comments plugin in the online directory. Once you locate the desired plugin, simply click the "Install" button, and then activate it.
+Search for "Disable Comments RB" from Plugins → Add New, or upload the plugin zip manually, then activate it.
 
-= How do I activate the Disable Comments functionality on my website? =
+= How do I turn off comments for my whole site? =
 
-Once you have installed the Disable Comments plugin, you need to access the plugin settings and enable the primary function to disable comments for your blog.
+Open the plugin's settings and choose "Disable everywhere" on the Disable tab.
 
 = Can I disable comments for specific posts? =
 
-Yes, you can disable comments for individual posts without needing the plugin. Navigate to the edit page for the post you wish to disable comments on. Scroll down to the "Discussion" box, where you will find the comment options for that specific post. If you don't see the "Discussion" box, click on "Screen Options" at the top of your screen and ensure the "Discussion" checkbox is selected.
-
-= What should I do if some comment interface elements remain visible after activating the plugin? =
-
-This issue may be due to a conflict, particularly if you are using a custom theme. The theme might override some elements' styles and layouts, causing them to remain visible. If you encounter this problem, please contact our support team for assistance in resolving it.
-
-= How do I globally disable comments on my WordPress site using Disable Comments RB? =
-
-To disable comments across your entire WordPress site, you can utilize the Disable Comments RB plugin. After installing and activating the plugin, navigate to its settings and enable the option to globally disable comments. This will effectively turn off comments for all posts and pages on your website.
-
-= Can I enable comments on specific posts or pages while using Disable Comments RB? =
-
-Yes, with Disable Comments RB, you have the flexibility to enable comments on specific posts or pages if needed. Simply edit the individual post or page, scroll down to the "Discussion" box, and enable comments as desired. This allows you to customize the commenting functionality on a per-post or per-page basis while still benefiting from the overall comment disabling feature provided by the plugin.
+Yes — without needing the plugin at all. Open the post editor, open the "Discussion" panel (enable it via Screen Options if it's hidden), and uncheck "Allow comments."
 
 = Does Disable Comments RB work with custom post types? =
 
-Yes, Disable Comments RB is designed to work seamlessly with custom post types as well as standard posts and pages. Whether you're using custom post types for portfolio items, products, or any other content, you can easily manage comment settings using the plugin. Simply access the settings for each custom post type to configure comment options according to your preferences.
+Yes. Any public post type that supports comments — including WooCommerce products — shows up in the content-type list on the Disable and Delete tabs.
 
-= How can I prevent spam comments on my WordPress site with Disable Comments RB? =
+= What's the difference between "hiding" and "deleting" comments? =
 
-While Disable Comments RB primarily focuses on disabling comments, it does not directly address spam prevention. However, you can still utilize other WordPress plugins or built-in features to combat spam comments effectively. Consider installing a dedicated anti-spam plugin or enabling comment moderation to approve comments before they appear on your site. Additionally, implementing CAPTCHA or reCAPTCHA verification can further deter automated spam bots from submitting comments.
+Hiding (on the Disable tab) only affects what's shown on the front end — nothing is removed from your database. Only the Delete tab actually removes comments, and even then you can choose Trash (recoverable) instead of permanent deletion.
+
+= Do I need the PRO Key plugin to use AI Assistant or WooCommerce review tools? =
+
+Yes — install and activate the separate "Disable Comments RB — PRO Key" plugin ([see the plans](https://rbplugins.com/wordpress-plugins/disable-comments-rb/#pricing)). There's no license key to enter; having it active is the unlock.
+
+= Where can I find the documentation? =
+
+Installation and setup guides are in the [Disable Comments RB documentation](https://rbplugins.com/docs/disable-comments-rb/).
+
+= Does this help with spam prevention? =
+
+Disable Comments RB blocks two specific spam channels (XML-RPC and the REST API's comment endpoint) but isn't a full anti-spam solution. Pair it with a dedicated anti-spam plugin or comment moderation for complete coverage.
 
 == Screenshots ==
 
-1. Disable Comments plugin - options screen of the Disable Comments RB
-2. Disable Comments notice
- 
+1. Disable tab — choose where comments are turned off
+2. Delete tab — bulk remove or trash comments by type and status
+3. AI Assistant (PRO) — keyword-triggered auto-replies with presets
+4. Statistics (PRO) — live comment counts by status and content type
+
 == Changelog ==
+
+= 2.1.0 =
+* New: PRO add-on support via the separate Disable Comments RB — PRO Key plugin, which holds the PRO features' code
+* New (PRO): AI Assistant — keyword- and WooCommerce-rating-triggered auto-replies, with presets
+* New (PRO): WooCommerce product review management (Delete filter, separate Statistics)
+* New (PRO): Hide existing comments by date range (between / before / after a date)
+* New (PRO): Role-based exceptions for staff
+* New (PRO): Multisite network-wide enforcement from Network Admin
+* New (PRO): Export/import settings as JSON
+* New (PRO): WP-CLI commands (status / set / stats / delete)
+* New (PRO): Full Statistics tab with content-type breakdown
+* Fix: "Everywhere" also covers content types added after saving, as it did in 1.0.x
+* Fix: Hiding existing comments also works on block themes and for comments read through the REST API
+* Fix: The "not configured" notice shows only until settings are saved, and can be closed
+* Fix: Sites updating from 1.0.x don't get the new dashboard widget and toolbar item until they turn them on
+* Fix: Settings stored in a wrong shape no longer break saving
+* Fix: Block-editor notes are not counted as comments in the statistics
+* Fix (PRO): Network enforcement no longer overwrites a site's own settings; General and AI Assistant stay per-site
+* Fix (PRO): Import is refused while the network enforces the settings
+* Fix (PRO): Markup in a commenter's name never reaches an AI Assistant reply
+
+= 2.0.0 =
+* New: completely redesigned settings screen (Disable / Delete / General tabs)
+* New: per-content-type comment disabling, independent of blocking new comments
+* New: Delete tab — bulk trash/delete comments by content type and status, with a Count-first step
+* New: blocks comment spam via XML-RPC and the REST API
+* New: WordPress Dashboard widget with live comment stats
+* New: optional shortcut button on the native Comments page
+* New: optional quick-access menu in the admin toolbar
+* New: choice of Settings submenu or a top-level admin menu item
+* New: Site Health integration
+* Security/compliance pass: escaping, nonce verification, i18n
 
 = 1.0.28 =
 * Compatibility with WordPress 7.1
@@ -110,13 +185,13 @@ While Disable Comments RB primarily focuses on disabling comments, it does not d
 * Compatibility with WordPress 6.0
 
 = 1.0.18 =
-* Fixed Menu Issue 
+* Fixed Menu Issue
 
 = 1.0.17 =
-* Compatibility with WordPress 5.9 
+* Compatibility with WordPress 5.9
 
 = 1.0.16 =
-* Admin warning fix 
+* Admin warning fix
 
 = 1.0.15 =
 * Update the admin interface section, menu and navigation
@@ -159,3 +234,8 @@ While Disable Comments RB primarily focuses on disabling comments, it does not d
 
 = 1.0 =
 * First release of the Disable Comments plugin.
+
+== Upgrade Notice ==
+
+= 2.0.0 =
+Major update: redesigned settings screen, per-content-type disabling, bulk delete, XML-RPC/REST blocking, and more. Review your settings after updating.
